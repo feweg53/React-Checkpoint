@@ -1,0 +1,28 @@
+* {
+  background-color:grey;
+}
+.App {
+  text-align: center;
+  background-color: black;
+}
+.email-view{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.email-card{
+  width: 90%;
+  height:60px;
+  line-height: 50%;
+  background-color: antiquewhite;
+  color:black;
+  margin: 10px 0px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+}
+.email-card p{
+  background-color: antiquewhite;
+  font-size: 15px;
+}
